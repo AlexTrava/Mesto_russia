@@ -1,0 +1,119 @@
+html,
+body {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+figure,
+pre {
+  margin: 0;
+}
+
+.wrapper_app {
+  padding-left: calc(50% - 440px);
+  padding-right: calc(50% - 440px);
+  background-color: black;
+}
+.header_logo {
+  padding-top: 45px;
+  border-bottom: 1px solid white;
+}
+
+.header_img {
+  padding-bottom: 41px;
+}
+
+.profile_card {
+  margin-top: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.wrapper_card_title {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 18px;
+}
+.profile_img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile_title {
+  width: 336px;
+  height: 73px;
+  margin-right: auto;
+}
+
+.profile_edit {
+  cursor: pointer;
+}
+
+.profile_add {
+  cursor: pointer;
+}
+
+.wrapper_content {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 17px;
+}
+
+.card {
+  background-color: #fff;
+  max-width: 282px;
+  min-height: 362px;
+  border-radius: 10px;
+}
+
+.card_img {
+  width: 282px;
+  height: 282px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.title_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 31px;
+}
+
+.paragraph_card {
+  color: black;
+  font-size: 24px;
+}
+
+.text_footer {
+  padding-top: 67px;
+  padding-bottom: 60px;
+}
+
+.like_card {
+  cursor: pointer;
+}
